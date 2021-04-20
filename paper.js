@@ -10,7 +10,7 @@ class Paper
     }
         this.width=50
         this.height=50
-		this.Body=Bodies.rectangle(x,y,50,50,options)
+		this.body=Bodies.rectangle(x,y,50,50,options)
 		this.image=loadImage("paper.png")
 		World.add(world, ssthis.Body)
 	
